@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teachmind</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class=" display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="color: white;">C language</h4>
+
+        </div>
+    </div>
+    <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <section class="container my-5">
+        <h2 style="color: orangered;">Welcome!</h2>
+        <p style="font-weight: 700;">
+            C is a high-level programming language developed in the early 1970s by Dennis Ritchie at Bell Labs. It is
+            widely used for system programming, including operating systems, and for developing various applications. C
+            is known for its efficiency, simplicity, and flexibility, allowing direct manipulation of hardware through
+            low-level operations. It uses functions, variables, loops, and conditional statements to solve problems.
+            With its structured programming approach, C enables dividing tasks into smaller, manageable parts. Though
+            old, C is still popular and forms the foundation for many modern languages like C++, Java, and Python.
+            .</p>
+    </section>
+
+    <!-- Prerequisites Section -->
+    <section class="container my-5">
+        <h3 style="color: orangered;">Prerequisites</h3>
+        <p style="font-weight: 700;">To learn C language, a basic understanding of computer operations and
+            problem-solving skills is helpful. Familiarity with mathematical concepts like variables, loops, and logic
+            will ease the learning process. Knowing how to work with files and directories on a computer is useful.
+            While no prior programming experience is required, basic knowledge of programming concepts such as
+            algorithms and flowcharts can provide a good foundation for beginners..</p>
+    </section>
+
+    <!-- Learning Objectives Section -->
+    <section class="container my-5">
+        <h3 style="color: orangered;">Learning Objectives</h3>
+        <p style="font-weight: 700;">
+            The learning objective of C language is to develop problem-solving skills using structured programming.
+            Students will learn to write efficient, optimized code, understand memory management, and implement
+            algorithms. Key objectives include mastering data types, functions, pointers, arrays, and file handling.
+            Learners will gain the ability to design programs for system-level applications and software development,
+            providing a strong foundation for advanced languages like C++ and Java, and enhancing their logical and
+            analytical thinking.
+        </p>
+    </section>
+    <!-- Features Start
+    <div class="container-fluid feature py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="">C Programming Language </h4>
+
+            </div>
+        </div>
+    </div> -->
+    <!--c syllbus-->
+    <div class="container-fluid faq-section pb-5">
+        <div class="container pb-5 overflow-hidden">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-primary"></h4>
+
+
+            </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                        <div class="accordion-item rounded-top">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed rounded-top" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Introduction to C
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        - Evolution of Programming Languages <br>
+                                        - Characteristics & Applications of C<br>
+                                        - Writing and Executing a C Program<br>
+
+
+
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    C Fundamental
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <b> Tokens, Characters & Comments</b><br>
+                                        - Keywords, Identifiers, and Naming Rules<br>
+                                        - Data Types, Variables, and Constants<br>
+                                        - Type Casting and I/O Statements<br>
+                                        - Operators and Precedence<br>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Flow of Control
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        - Conditional Statements: `if`, `else if`, `switch`<br>
+                                        - Looping: `for`, `while`, `do-while`, Nested Loops<br>
+                                        - `break`, `continue`, `goto` Statements<br>
+
+                                        <!-- </ul>
+                                    <div> Iterative / Loop Statements</div>
+                                    <ul>
+                                        <li> for</li>
+                                        <li> while</li>
+                                        <li> do……..while</li>
+                                        <li> Nested Loops
+                                        </li>
+                                        <li> `break`</li>
+                                        <li>`continue`,</li>
+                                        <li> `goto` Statements</li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Function & Library Functions
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <b>Function Definition, Prototype, and Calls</b><br>
+                                        - Call by Value vs Call by Reference<br>
+                                        Scope of Variables and Storage Classes<br>
+                                        - Recursion vs Iteration<br>
+                                        - Common Header Files: `stdio.h`, `string.h`, etc.<br>
+
+
+                                        <!-- <li> Purpose of Function</li>
+                                        <li> Function Definition, Prototype & Calling</li>
+                                        <li> Non Parameterized & Parameterized</li>
+                                        <li> Understanding Return Statement</li>
+                                        <li> Format of Function</li>
+                                        <li> Call By Value & Call By Reference</li>
+                                        <li> Scope of Variables</li>
+                                        <li> Storage Classes</li>
+                                        <li> Recursive Functions & Types of Recursion</li>
+                                        <li> Recursion V/S Iteration</li>
+                                        <li> Commonly Used Header Files & Library Function in C</li>
+                                        <ol>stdio.h</ol>
+                                        <ol>ctype.h</ol>
+                                        <ol>string.h</ol>
+                                        <ol>math.h</ol>
+                                        <ol>stdlib.h</ol>
+                                        <ol>time.h</ol>
+                                        <ol>locale.h</ol> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Arrays
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <!-- <li> Introduction to Array</li>
+                                        <li> Declaration of One D Arrays</li>
+                                        <li> Dynamic Initialization of One D Array </li>
+                                        <li> Operations on One D Arrays</li>
+                                        <li> Passing Array to Function</li>
+                                        <li> Two-Dimensional Arrays</li>
+                                        <li> Dynamic Initialization of Two D Array </li>
+                                        <li> Operations on Two D Array</li>
+                                        <li> Passing Two-dimensional Arrays to Function
+                                        </li> -->
+                                        - One-Dimensional & Two-Dimensional Arrays<br>
+                                        - Dynamic Initialization and Array Operations<br>
+                                        - Passing Arrays to Functions<br>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item rounded-bottom">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    String Handling
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <!-- <li> Reading & Writing Strings</li>
+                                        <li> String Operations and String Arrays
+
+                                        </li>
+                                        <li>
+                                            <b> Pointers</b>
+                                        </li>
+                                        <li>
+                                            Pointer Declaration and Arithmetic</li>
+                                        <li> Pointer to Functions, Arrays, and Strings</li>
+                                        <li>Memory Allocation & Drawbacks -->
+                                        - Reading & Writing Strings<br>
+                                        - String Operations and String Arrays<br>
+
+
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headinSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                    aria-controls="flush-collapseSeven">
+                                    pointers
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <!-- <li>Introduction to Structure</li>
+                                        <li> Structure Declaration & Accessing the Members of a Structure</li>
+                                        <li>
+                                            Initialization of Structures
+                                        </li>
+                                        <li>typedef Declarations </li>
+                                        <li>Copying and Comparing Structures</li>
+                                        <li>Nested Structures </li>
+                                        <li>Arrays of Structure</li>
+                                        <li>Structures and Functions</li>
+                                        <li>Introduction to Unions</li>
+                                        <li>Unions Declaration & Accessing the Members of a Structure
+                                        </li>
+                                        <li>Arrays of Union Variables</li>
+                                        <li> Union inside Structure & Structure inside Unions</li>
+                                        <li>Enumerated Data Type</li> -->
+                                        <!-- <li> Structure and Union Declaration</li>
+                                        <li> Nested Structures and Self-Referential Structures</li>
+                                        <li>Enumerated Data Types</li>
+                                        <li><b> File Handling (I/O)</b></li>
+                                        <li>File Operations: Read, Write, Error Handling</li>
+                                        <li>Binary Files, Random Access, Command Line Arguments</li> -->
+                                        - Pointer Declaration and Arithmetic<br>
+                                        - Pointer to Functions, Arrays, and Strings<br>
+                                        - Memory Allocation & Drawbacks<br>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item rounded-bottom">
+                            <h2 class="accordion-header" id="flush-headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                    aria-controls="flush-collapseEight">
+
+                                    Structures, Unions & Enums
+
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        - Structure and Union Declaration<br>
+                                        - Nested Structures and Self-Referential Structures<br>
+                                        - Enumerated Data Types<br>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item rounded-bottom">
+                            <h2 class="accordion-header" id="flush-headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                    aria-controls="flush-collapseNine">
+
+
+                                     File Handling (I/O)
+
+
+                                </button>
+                            </h2>
+                            <div id="flush-collapseNine" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        - File Operations: Read, Write, Error Handling<br>
+                                        - Binary Files, Random Access, Command Line Arguments<br>
+                                        
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item rounded-bottom">
+                            <h2 class="accordion-header" id="flush-headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTen" aria-expanded="false"
+                                    aria-controls="flush-collapseTen">
+
+                     
+                                     Preprocessor Directives
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTen" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushSection">
+                                <div class="accordion-body">
+                                    <ul>
+                                        - `#define`, `#include`, `#ifdef`, `#ifndef`<br>
+                                        - Predefined Macros and Conditional Compilation<br>
+                                        
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="bg-primary rounded">
+                        <img src="img/about-2.png" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end syllbus-->
+
+    <div class="container mt-5">
+        <div class="card mb-4">
+            <div class="card-header  ">
+                <h2 class=" text-center">Frequently Asked Questions (FAQs) - Learning C Programming</h2>
+            </div>
+            <div class="card-body">
+                <div class="accordion" id="faqAccordionCProgramming">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_1" aria-expanded="true"
+                                aria-controls="faqCProgramming_1">
+                                1. Who should learn C?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_1" class="accordion-collapse collapse show"
+                            aria-labelledby="faqHeadingCProgramming_1" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                Beginners and professionals interested in systems programming, embedded systems, and
+                                hardware interaction.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_2" aria-expanded="false"
+                                aria-controls="faqCProgramming_2">
+                                2. How long does it take to learn C?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_2" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_2" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                It takes approximately 1.5 months.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_3" aria-expanded="false"
+                                aria-controls="faqCProgramming_3">
+                                3. Why is C still important?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_3" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_3" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                C gives low-level memory access, making it ideal for operating systems and
+                                resource-efficient applications.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_4" aria-expanded="false"
+                                aria-controls="faqCProgramming_4">
+                                4. Where is C used?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_4" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_4" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                C is used in operating systems, embedded systems, IoT devices, game engines, and
+                                high-performance computing.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_5" aria-expanded="false"
+                                aria-controls="faqCProgramming_5">
+                                5. What are the career options for C developers?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_5" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_5" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                Careers include systems programmer, embedded engineer, firmware developer, and network
+                                engineer.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_6" aria-expanded="false"
+                                aria-controls="faqCProgramming_6">
+                                6. Why learn C before other languages?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_6" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_6" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                C teaches core programming concepts and memory management, building a strong foundation
+                                for other languages.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 7 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_7" aria-expanded="false"
+                                aria-controls="faqCProgramming_7">
+                                7. Who uses C in industry?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_7" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_7" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                Companies like Microsoft, Intel, and IBM use C for efficient, low-level software
+                                development.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_8" aria-expanded="false"
+                                aria-controls="faqCProgramming_8">
+                                8. Why is C important for embedded systems?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_8" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_8" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                C allows direct hardware control, making it perfect for writing device drivers and
+                                microcontroller programs.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 9 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingCProgramming_9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCProgramming_9" aria-expanded="false"
+                                aria-controls="faqCProgramming_9">
+                                9. Can C be used for game development?
+                            </button>
+                        </h2>
+                        <div id="faqCProgramming_9" class="accordion-collapse collapse"
+                            aria-labelledby="faqHeadingCProgramming_9" data-bs-parent="#faqAccordionCProgramming">
+                            <div class="accordion-body">
+                                Yes, C is used to build efficient game engines and low-level components in game
+                                development.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features End -->
+
+    <!-- Footer Start -->
+    <div id="footer"></div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+lLakshay Kohli  99   IP
+Manik Singhal  99   CS
+Bhawana Vashisht  99 IP
+Nimish Jindal     97    CS
+Pranshu Sharma 97  CS
+Aashka Goyal     97  IP
+Lavya Jain        96   IP
+Jiya Sharma      96   IP
+Kaashvi Gola     95      CS
+Mehak Goel        95   CS
+Aryan Prasad   95    CS
+Pranav Almal  95  IP
+Pari Khandelwal   95 IP
+Ayushi Gutpa     95     IP
+Paridhi Khanduri 94  IT
+Atharv Sharma  94 Web
+Parth Malik        92  CS
+Saksham Arora 91    CS
+Kush Tagra          91  CS
+Jai Kalra   90  Web
+Shrey Verma 90  IP
+Kanishka Rohia 90 IP
+Parv Malik  90 CS
+Anusha Jha  CS 87
+Aditi Sharma IP  87
+Himani Gupta IP 86
+Navya Gupta  CS  86
+
+
+
+
+
+   
+
+

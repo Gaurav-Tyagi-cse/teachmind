@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teachmind</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="  display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="color: white;">Our testimonial</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+
+                <li class="breadcrumb-item active text-light">testimonial</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Services Start -->
+    <!----
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Services</h4>
+                    <h1 class="display-5 mb-4">We Services provided best offer</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4"> Strategy Consulting</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Financial Advisory</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Managements</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Supply Optimization</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Hr Consulting</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Aaditi Sharma.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Aaditi Sharma</h3>
+                <p>
+                    I was struggling to grasp Informatics Practices (IP) in school, and I even considered dropping the
+                    subject. However, someone recommended Tech MindGuru for IP tuition classes, and it turned out to be
+                    a game changer. After joining, my interest in IP grew significantly. I can't express how much I've
+                    benefited from their classes. If you are looking to excel in IP and CS Python. I highly recommend
+                    joining Tech MindGuru.
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Aashka Goyal.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Aaskha Goyal</h3>
+                <p>
+                    If you are seeking a comprehensive platform to learn programming languages like C, C++, Java, and
+                    Python for B.Tech, look no further than Tech MindGuru. Here, you'll receive thorough instruction
+                    from scratch, directly on-site. Prabhat Sir's teaching method, filled with real-life examples,
+                    ensures effortless understanding and retention. Waste no time and begin your coding journey at Tech
+                    MindGuru without hesitation!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Anusha Jha.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Anusha jha</h3>
+                <p>
+                    starstarstarstarstar 33 weeks ago
+                    Best coaching centre for ip I have joined it in April and I have learned so much the best tution for
+                    informatics practices, I just love both the online and offline classes there was no difficulty with
+                    that
+                    Thank you so much sir I will always appreciate it 🌙✨
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Ayushi Gupta.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Ayushi Gupta</h3>
+                <p>
+                    Really nice place to improve your interest in computer science. I was not at all catching up at
+                    school before I joined the institute but joining here really helped me to improve my marks and way
+                    of thinking. Thankyou so much sir for great help.❤️
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Pranshu Sharma.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3> Pranshu Sharma</h3>
+                <p>
+                    I joined this institute currently studying for Computer Sciences for my class 12 CBSE Board exam.
+                    The amount and the way of knowledge Prabhat sir has given is extremely amazing. He is an amazing
+                    teacher and makes difficult concepts seem very easy. Highly recommended.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Bhawana Vashist.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3> Bhawana Vashist</h3>
+                <p>
+                    You are the best teacher that i have ever seen in my life you teach with full responsibility and
+                    being friendly that we don’t hesitate to ask doubts from you, you continuously after teaching every
+                    topic asks us about our doubt, I don’t even want to think of learning cs from any other teacher ,
+                    you made python very simple and easy for us , i am honestly saying that you are THE BEST TEACHER IN
+                    THE WORLD , thanks sir for helping and guiding me throughout this year i will definitely be your
+                    student when i would be doing engineering in college . you are both a best mentor and teacher with
+                    well experience ,thanks sir❤️.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Pranav Almal.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3> Pranav Almal</h3>
+                <p>
+
+                    I was struggling to grasp Informatics Practices (IP) in school, and I even considered dropping the
+                    subject. However, someone recommended Tech MindGuru for IP tuition classes, and it turned out to be
+                    a game changer. After joining, my interest in IP grew significantly. I can't express how much I've
+                    benefited from their classes. If you are looking to excel in IP and CS Python. I highly recommend
+                    joining Tech MindGuru. <a href="https://maps.app.goo.gl/bD5Aa9AKCtnoBnFC7
+                    ">Know More</a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Saksham Arora.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Saksham Arora</h3>
+                <p>
+                    Tech MindGuru is an outstanding institution for learning computer languages like Python C++ Java etc
+                    and related subjects like AI ,CS ,IP , IT etc . The courses are comprehensive and well-structured,
+                    covering everything from beginner to advanced levels. The teacher Mr Prabhat sir is highly
+                    knowledgeable and provide clear, practical instruction. The hands-on learning approach, with
+                    numerous coding exercises and real-world projects, ensures that students can apply their skills
+                    effectively.
+                    The supportive nature of sir at fosters collaboration and peer learning, and the flexible learning
+                    options accommodate various schedules and learning preferences. Additionally, their career
+                    development services, including resume workshops and job placement assistance, are invaluable for
+                    students looking to enter or advance in the tech industry.
+                    Overall, Tech Mind Guru is highly recommended as it offers an excellent educational experience for
+                    anyone interested in computer science and technology
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Manik Sighal.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Manik Sighal</h3>
+                <p>
+
+                    Tech MindGuru is the perfect destination for B.Tech students seeking comprehensive programming
+                    language learning. Prabhat Sir's teaching approach simplifies complex topics with real-life
+                    examples, ensuring effortless understanding. Start your coding journey at Tech MindGuru and unlock
+                    your programming potential without hesitation.
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Mehak Goyal.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Mehak Goyal</h3>
+                <p>
+
+                    I had the privilege of attending Prabhat Sir's Computer Science classes in 11th and 12th grade.
+                    Despite having zero knowledge in Python, his teaching methods transformed me into a proficient
+                    learner. His practical and authentic approach to teaching is commendable, and I highly recommend
+                    joining Tech MindGuru for a remarkable learning experience.
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-md-4">
+                <img src="img/Parth Malik.jpg" alt="Aayush Chaudhary" height="200px" width="200px"
+                    class=" rounded-circle">
+            </div>
+
+            <!-- Testimonial Text Section -->
+            <div class="col-md-8">
+                <h3>Parth Malik</h3>
+                <p>
+
+                    The best institute, despite of having no knowledge Prabhat sir explained all the lessons firmly, and
+                    got all the students learn so much from him. Prabhat sir was pleasant, firm, and professional while
+                    teaching his class. Even the notes he provided were so good, it is so much easy to understand from
+                    it.Thank you for your passion and for your willingness to share that passion with your students,
+                    sir.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Testimonial Start -->
+    <!----
+        <div class="container-fluid testimonial pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Testimonial</h4>
+                    <h1 class="display-5 mb-4">Our Clients Riviews</h1>
+                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-3.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    <!-- Testimonial End -->
+
+
+    <!-- footer -->
+    <div id="footer"></div>
+    <!-- Copyright Start -->
+
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

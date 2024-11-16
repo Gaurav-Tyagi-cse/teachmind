@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teachmind</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <style>
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+            /* Aspect ratio 16:9 */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .gallery-item {
+            margin-bottom: 30px;
+        }
+
+        .box {
+            background-color: #333;
+            padding: 30px;
+            border-radius: 10px;
+            color: white;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .form-control,
+        .btn {
+            background-color: #fff;
+            border-color: #ccc;
+        }
+
+        label {
+            color: white;
+        }
+
+        .btnn {
+            background-color: orangered;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="  mb-4 wow fadeInDown" data-wow-delay="0.1s">Demo form</h4>
+
+        </div>
+    </div>
+    <!-- Course Overview Section -->
+    <section>
+        <div class="container mt-5 box">
+            <h2 style="color: orangered; text-align: center;">Book Your Demo Class</h2>
+            <form>
+                <div class="form-group mb-3">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" class="form-control" id="studentName" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="contactNumber">Contact Number:</label>
+                    <input type="tel" class="form-control" id="contactNumber" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email">Email Id:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="demoTime">Preferred Demo Time:</label>
+                    <select class="form-control" id="demoTime" required>
+                        <option value="">Select a time...</option>
+                        <option value="11:30 AM">11:30 AM</option>
+                        <option value="12:30 PM">12:30 PM</option>
+                        <option value="2:30 PM">2:30 PM</option>
+                        <option value="3:30 PM">3:30 PM</option>
+                        <option value="4:30 PM">4:30 PM</option>
+                        <option value="5:30 PM">5:30 PM</option>
+                        <option value="6:30 PM">6:30 PM</option>
+                        <option value="7:30 PM">7:30 PM</option>
+                        <!-- Additional options here -->
+                    </select>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="demoDays">Preferred Demo Days:</label>
+                    <select class="form-control" id="demoDays" required>
+                        <option value="">Select a day...</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                        <!-- Additional options here -->
+                    </select>
+                </div>
+                <div class="form-group mb-3">
+                    <label>Demo Class Mode:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="classMode" id="offline"
+                            value="Offline in Class Room" required>
+                        <label class="form-check-label" for="offline">Offline in Class Room</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="classMode" id="online"
+                            value="Online on Apps or Google Meet">
+                        <label class="form-check-label" for="online">Online on Apps or Google Meet</label>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="course">Select a Course:</label>
+                    <select class="form-control" id="course" required>
+                        <option value="">Choose a course...</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value=" Informatics Practices"> Informatics Practices</option>
+                        <option value=" Information Technology"> Information Technology</option>
+                        <option value="  Web Applications"> Web Applications</option>
+                        <option value="    Artificial Intelligence"> Artificial Intelligence</option>
+                        <option value="   Data Science"> Data Science</option>
+                        <option value="    Computer Application"> Computer Application</option>
+                        <option value=" C Language"> C Language</option>
+                        <option value="    C++"> C++</option>
+                        <option value="  Data Structure and Algorithms"> Data Structure and Algorithms</option>
+                        <option value="   Python"> Python</option>
+                        <option value="   Advance Java"> Advance Java</option>
+                        <option value="  Junior Coding"> Junior Coding</option>
+                        <option value="  Data Analyst"> Data Analyst</option>
+                        <option value="Java Full Stack Web  Development">Java Full Stack Web Development</option>
+                        <option value="   Python Full Stack Web  Development"> Python Full Stack Web Development
+                        </option>
+                        <option value="others">Others</option>
+                        <!-- Additional options here -->
+                    </select>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="grade">Grade:</label>
+                    <select class="form-control" id="grade" required>
+                        <option value="">Select your grade...</option>
+                        <option value="Class 11th">Class - 11th</option>
+                        <option value="Class 12th">Class - 12th</option>
+                        <option value="B.Teach">B.Teach</option>
+                        <option value="   BCA">   BCA</option>
+                        <option value="       MCA">       MCA</option>
+                        <option value="   Working Professional">   Working Professional</option>
+                        <option value="   Graduates">   Graduates</option>
+                        <option value="  Under Graduates">  Under Graduates</option>
+                        <option value="    Diploma">    Diploma</option>
+                        <option value="others">others</option>
+                        <!-- Additional options here -->
+                    </select>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <div class="text-center py-3">
+                    <button type="submit" class="btn btnn btn-block w-100">Book Demo</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer Start -->
+    <div id="footer"></div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btnn btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

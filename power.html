@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Teachmind</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="  display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="color: white;">Power BI</h4>
+            <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+
+                <li class="breadcrumb-item active text-light ">power BI</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Team Start -->
+    <section class="container py-5">
+        <h1 style="color: red;"> Welcome</h1>
+        <p> Power BI is a business analytics tool by Microsoft that enables users to visualize and share insights from
+            their
+            data. It allows for the creation of interactive dashboards and reports, facilitating data-driven
+            decision-making
+            through real-time analytics and seamless integration with various data sources.</p>
+    </section>
+    <section class="container">
+        <h1 style="color: red;"> Prerequisites</h1>
+        <p> Prerequisites for learning Power BI include basic computer skills, familiarity with data concepts, and
+            understanding of Excel, as these foundations enhance the learning experience with the tool.</p>
+    </section>
+    <section class="container">
+        <h1 style="color: red;">Learning Objectives</h1>
+        <p> The learning objectives of Power BI include mastering data visualization, report creation, dashboard design,
+            and
+            data modeling to enable effective analysis and insightful decision-making.</p>
+    </section>
+    <!-- Team End -->
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Power BI Course Modules</h2>
+
+        <!-- Accordion -->
+        <div class="accordion" id="courseOverview">
+
+            <!-- Module 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Module 1: Introduction to Power BI
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Overview of Power BI</strong>
+                                <ul>
+                                    <li>What is Power BI?</li>
+                                    <li>Components of Power BI (Power BI Desktop, Service, Mobile)</li>
+                                    <li>Power BI vs. Traditional BI Tools</li>
+                                </ul>
+                            </li>
+                            <li><strong>Setting Up Power BI Desktop</strong>
+                                <ul>
+                                    <li>Installation and Interface Overview</li>
+                                    <li>Connecting to Data Sources (Excel, SQL, Web, etc.)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Module 2: Data Import and Transformation using Power Query
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Data Import</strong>
+                                <ul>
+                                    <li>Connecting to Different Data Sources</li>
+                                    <li>Import vs. Direct Query Mode</li>
+                                </ul>
+                            </li>
+                            <li><strong>Data Transformation with Power Query</strong>
+                                <ul>
+                                    <li>Cleaning and Shaping Data</li>
+                                    <li>Merging and Appending Queries</li>
+                                    <li>Using Filters, Pivot/Unpivot Data</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Module 3: Data Modeling in Power BI
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Introduction to Data Models</strong>
+                                <ul>
+                                    <li>Building Relationships Between Tables</li>
+                                    <li>Managing Relationships and Cardinality</li>
+                                    <li>Star Schema and Snowflake Schema Design</li>
+                                </ul>
+                            </li>
+                            <li><strong>Creating Calculated Columns and Measures</strong>
+                                <ul>
+                                    <li>DAX (Data Analysis Expressions) Basics</li>
+                                    <li>Creating Measures, Calculated Columns, and Tables</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Module 4: Data Visualization
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Creating Visuals</strong>
+                                <ul>
+                                    <li>Types of Visuals (Bar, Line, Pie, Map, Table, etc.)</li>
+                                    <li>Formatting and Customizing Visuals</li>
+                                    <li>Using Slicers and Filters</li>
+                                </ul>
+                            </li>
+                            <li><strong>Advanced Visualizations</strong>
+                                <ul>
+                                    <li>Creating Hierarchies</li>
+                                    <li>Drill-down and Drill-through Reports</li>
+                                    <li>Using Custom Visuals from Power BI Marketplace</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Module 5: DAX for Data Analysis
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Introduction to DAX</strong>
+                                <ul>
+                                    <li>Basic Functions (SUM, COUNT, AVERAGE)</li>
+                                    <li>Logical Functions (IF, SWITCH)</li>
+                                    <li>Time Intelligence (YTD, MTD, QTD)</li>
+                                </ul>
+                            </li>
+                            <li><strong>Advanced DAX</strong>
+                                <ul>
+                                    <li>Calculated Measures and Tables</li>
+                                    <li>Aggregation and Filter Context</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Module 6: Power BI Service and Dashboards
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Publishing Reports to Power BI Service</strong>
+                                <ul>
+                                    <li>Overview of Power BI Service</li>
+                                    <li>Publishing Reports to the Cloud</li>
+                                    <li>Configuring Data Refresh and Scheduled Updates</li>
+                                </ul>
+                            </li>
+                            <li><strong>Creating Dashboards</strong>
+                                <ul>
+                                    <li>Pinning Visuals and Reports to Dashboards</li>
+                                    <li>Sharing Dashboards and Collaborating in Workspaces</li>
+                                    <li>Setting Alerts and Notifications</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Module 7 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Module 7: Power BI Advanced Features
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Row-level Security (RLS)</strong>
+                                <ul>
+                                    <li>Implementing RLS in Power BI</li>
+                                    <li>Managing User Roles and Access Control</li>
+                                </ul>
+                            </li>
+                            <li><strong>Power BI Mobile</strong>
+                                <ul>
+                                    <li>Creating Mobile-friendly Reports</li>
+                                    <li>Viewing and Sharing Dashboards on Mobile</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Module 8 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        Module 8: Power BI Integration
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                    data-bs-parent="#courseOverview">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Integrating Power BI with Excel</strong>
+                                <ul>
+                                    <li> Using Excel Data in Power BI</li>
+                                    <li>Exporting Power BI Data to Excel
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li><strong>Power BI with Azure and SQL</strong>
+                                <ul>
+                                    <li> Connecting Power BI with Azure SQL Database</li>
+                                    <li>Real-time Data Streaming in Power BI</li>
+                                    <li><strong>Capstone Project</strong></li>
+                                    <li>End-to-End Power BI Project</li>
+                                    <li> Data Import, Transformation, Modeling</li>
+                                    <li> Visualizing Data and Building Interactive Dashboards</li>
+                                    <li> Publishing and Sharing Reports</li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       <br>
+       <br>
+    <!-- Question 1 -->
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+    <div class="accordion-item">
+        
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                1. What is the duration of Power BI courses?
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Courses typically range from 1 to 2 months.
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. What job roles require Power BI skills?
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Roles such as Data Analyst, Business Intelligence Analyst, and Data Scientist often require proficiency
+                in Power BI for data analysis and reporting.
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. What skills are covered in Power BI training?
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Training includes data modeling, DAX (Data Analysis Expressions), creating interactive reports,
+                dashboard design, and data visualization techniques.
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4. Do I need prior experience with BI tools to learn Power BI?
+            </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                While not mandatory, having a basic understanding of data concepts and Excel can enhance the learning
+                experience.
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                5. Can Power BI skills improve my career prospects?
+            </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Yes, proficiency in Power BI significantly enhances employability and can lead to career advancement in
+                data-driven roles.
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                6. What industries commonly utilize Power BI?
+            </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Industries such as finance, marketing, healthcare, and retail use Power BI for data analysis, reporting,
+                and decision-making.
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+</div>
+
+
+    <!-- Footer Start -->
+    <div id="footer"></div>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
